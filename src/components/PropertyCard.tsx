@@ -112,7 +112,7 @@ const PropertyCard = ({ property, userLikedProperties }: PropertyCardProps) => {
           <button
             onClick={handleLikeToggle}
             disabled={isLoadingLike}
-            className="absolute top-3 right-3 bg-white p-2 rounded-full shadow-md hover:bg-gray-100 disabled:opacity-50 z-10"
+            className="absolute top-2 right-2 m-1 bg-white p-2 rounded-full shadow-md hover:bg-gray-100 disabled:opacity-50 z-10"
             aria-label={isLiked ? t('unlikeProperty') : t('likeProperty')}
           >
             <Heart
